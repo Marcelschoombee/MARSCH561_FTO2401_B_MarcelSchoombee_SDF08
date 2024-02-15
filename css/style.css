@@ -7,15 +7,15 @@
 /* Customisable properties */
 
 :root {
-    --ff-primary: 'Lora', serif;
-    --ff-secondary: 'Roboto Slab', serif;
+    --ff-primary: "Teko", sans-serif;
+    --ff-secondary: "Montserrat", sans-serif;
     
     --fw-reg: 400;
     --fw-bold: 700;
     
-    --clr-light: #fff;
+    --clr-light: #EFECEC;
     --clr-dark: #303030;
-    --clr-accent: #f8333c;
+    --clr-accent: #FC6736;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -131,6 +131,10 @@ h3 { font-size: var(--fs-h3) }
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+}
+
+p {
+    font-family: var(--ff-secondary)
 }
 
 /* header section */
@@ -420,7 +424,7 @@ header {
 /* footer section*/
 
 .footer {
-    background: #111;
+    background: #535252;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
